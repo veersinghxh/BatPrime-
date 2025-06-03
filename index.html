@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="google-site-verification" content="y5d3HHBPS7X9ZQWFuCPUmWOr0Ok_Bl1CqRyAOqrhqMQ" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="BatPrime" />
+
+  <link rel="icon" type="image/png" href="logo.png" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="BatPrime – Discover the Most Awaited Movies of 2025" />
+  <meta property="og:description" content="Follow BatPrime for the latest updates on upcoming movies, fan polls, trailers, and box office predictions for 2025." />
+  <meta property="og:image" content="logo.png" />
+  <meta property="og:url" content="https://veersinghxh.github.io/YV/" />
+  <meta property="og:type" content="website" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="BatPrime – Upcoming Movies & Fan Polls" />
+  <meta name="twitter:description" content="Get the latest on Bollywood and Hollywood movies, trailers, and fan reactions only on BatPrime." />
+  <meta name="twitter:image" content="logo.png" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+
+  <style>
+    body { font-family: 'Roboto', sans-serif; }
+  </style>
+</head>
+<body class="bg-[#121212] text-white">
+
+  <!-- Navbar -->
+  <div class="bg-[#1a1a1a] px-4 py-3 flex justify-between items-center">
+    <div class="text-yellow-400 font-bold text-lg">BatPrime+</div>
+    <div class="space-x-4 text-sm">
+      <a href="#" class="text-white hover:text-yellow-400">Movie</a>
+      <a href="#" class="text-white hover:text-yellow-400">Celebs</a>
+      <a href="#" class="text-white hover:text-yellow-400">More</a>
+    </div>
+  </div>
+
+  <!-- Banner -->
+  <div class="relative w-full h-[250px] sm:h-[400px] bg-cover bg-center" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRHeOwEM5M0W5ySuq5XBEKKyL7ts_aXMY_b_M-YXa9mWlUWYMOAZgumoI&s=10')">
+  </div>
+
+  <!-- Poll Banner Section -->
+  <div class="px-4 mt-6">
+    <h2 class="text-yellow-400 font-bold text-lg mb-4">One subscription all enjoy OTT platform with BatPrime+</h2>
+    <div class="bg-gray-900 rounded-lg p-6 max-w-md">
+      <h3 class="text-yellow-400 font-bold text-lg mb-4">All in one subscription</h3>
+      <h3 class="text-white font-extrabold text-xl mb-4 leading-snug">
+        Netflix + Amazon Prime + Disney Hotstar
+      </h3>
+      <p class="text-gray-400 text-base mb-1">All platform Mobile monthly: ₹389 only</p>
+      <p class="text-gray-400 text-base mb-1">All platform Standard Monthly: ₹459 only</p>
+      <p class="text-gray-400 text-base mb-1">All platform Premium Monthly: ₹999 only</p>
+      <p class="text-gray-400 text-base mb-4">Coming soon in India: 21 June</p>
+      <p class="text-gray-400 text-base mb-4">One subscription to all platforms and premium service</p>
+
+      <button class="group bg-yellow-400 hover:bg-yellow-500 text-black font-bold py-2 px-4 rounded w-full transition duration-300 relative">
+        <span class="group-hover:hidden">Pre-register & subscription</span>
+        <span class="hidden group-hover:inline">Register</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Comment Box Section -->
+  <section class="px-4 mt-8">
+    <h2 class="text-yellow-400 font-bold text-lg mb-4">
+    secretFeedback please</h2>
+
+    <div class="bg-gray-900 text-yellow rounded-xl shadow-lg p-6 space-y-4 max-w-xl">
+      <textarea id="commentInput" class="w-full p-2 rounded border border-black focus:outline-none focus:ring-2 focus:ring-yellow-400 resize-none" rows="3" placeholder="Write your comment..."></textarea>
+
+      <button onclick="saveComment()" class="w-full bg-black text-yellow-400 font-bold py-2 rounded hover:bg-yellow-500 hover:text-black transition duration-300">
+        Feedback & Comment
+      </button>
+
+      <div id="commentsList" class="space-y-2 max-h-64 overflow-y-auto">
+        <!-- Saved comments will appear here -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Movies Grid Section -->
+  <section class="px-4 mt-8">
+    <h2 class="text-yellow-400 font-bold mb-3">Netflix</h2>
+    <div class="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 gap-4">
+      <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrKZWNkr8oz5WEHSC11oVsZIWRblmIFGl9jWNINvsn42g6D-5QJj2IAtUj&s=10" class="w-full h-[210px] object-cover rounded" />
+        <p class="text-xs mt-1"></p>
+        <a href="https://m.imdb.com/title/tt6473300/" class="text-xs text-blue-600 hover:underline"></a>
+      </div>
+      <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9XKjzZj226YcS9wSXUrzOgExgiAlQEEBGqYtIZsR2QU5yRZThcUM_HQE&s=10" class="w-full h-[205px] object-cover rounded" />
+        <p class="text-xs mt-1"></p>
+        <a href="https://m.imdb.com/title/tt1190634/" class="text-xs text-blue-600 hover:underline"></a>
+      </div>
+       <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpfPRjgPFYkhBZDexuS0bG6OIZEO7QF57YhVM8w6uBnRJuFH6IFvWk3Ms&s=10" class="w-full h-[210px] object-cover rounded" />
+        <p class="text-xs mt-1"></p>
+        <a href="https://m.imdb.com/title/tt1190634/" class="text-xs text-blue-600 hover:underline"></a>
+      </div>
+      <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-Wd7lLYIh06rpv494hjuM5HArxgoWXZ3O3uu1woKEJVJuPCkPPo6PUZI&s=10" class="w-full h-[210px] object-cover rounded" />
+        <p class="text-xs mt-1"></p>
+        <a href="https://m.imdb.com/title/tt13146488/" class="text-xs text-blue-600 hover:underline"></a>
+      </div>
+    </div>
+  </section>
+<!-- Movies Grid Section -->
+  <section class="px-4 mt-8">
+    <h2 class="text-yellow-400 font-bold mb-3">Amozen Prime</h2>
+    <div class="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 gap-4">
+      <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLCphRRHC6ug6aa6g15fnhE7RL4nc4Dqz1NhTJXaHsbyStLCwW48ghMZA&s=10" class="w-full h-[210px] object-cover rounded" />
+        <p class="text-xs mt-1"></p>
+        <a href="https://m.imdb.com/title/tt6473300/" class="text-xs text-blue-600 hover:underline"></a>
+      </div>
+      <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4b40Z2YA_Tj0waFlwW9qyjqLz1kGn_5u93is9_ZTuAEOXRAG6oV2WkQ0&s=10" class="w-full h-[210px] object-cover rounded" />
+        <p class="text-xs mt-1"></p>
+        <a href="https://m.imdb.com/title/tt1190634/" class="text-xs text-blue-600 hover:underline"></a>
+      </div>
+       <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgoLfg8_jCSK9NzpocdQIE47Qqs_zV89r4-w&s" class="w-full h-[210px] object-cover rounded" />
+        <p class="text-xs mt-1">The Boys</p>
+        <a href="https://m.imdb.com/title/tt1190634/" class="text-xs text-blue-600 hover:underline"></a>
+      </div>
+      <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU-fIun8DPRHKQXY-2nT5euwhiV4AJVUOre8lOM3WPgpkmXWM1shioGXv5&s=10" class="w-full h-[210px] object-cover rounded" />
+        <p class="text-xs mt-1"></p>
+        <a href="https://m.imdb.com/title/tt13146488/" class="text-xs text-blue-600 hover:underline"></a>
+      </div>
+    </div>
+  </section>
+  <!-- Movies Grid Section -->
+  <section class="px-4 mt-8">
+    <h2 class="text-yellow-400 font-bold mb-3">Disney Hoster</h2>
+    <div class="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 gap-4">
+      <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJXP9gwluKL2G_AZ6HmMcIdMa7QJOhrLWiuE8Nk7DMyEl1o85lnBHEvYh6&s=10" class="w-full h-[160px] object-cover rounded" />
+        <p class="text-xs mt-1"></p>
+        <a href="https://m.imdb.com/title/tt6473300/" class="text-xs text-blue-600 hover:underline"></a>
+      </div>
+      <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZSibeq3PjIhHyXIHENK_tmPWZfP1RZtAZIIJnAkrw41i9kTfPGzHezwky&s=10" class="w-full h-[210px] object-cover rounded" />
+        <p class="text-xs mt-1"></p>
+        <a href="https://m.imdb.com/title/tt1190634/" class="text-xs text-blue-600 hover:underline"></a>
+      </div>
+       <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp715TshkjjhjUL6yjIYSb7irO1-iBb4AYRyUvTkvdVu2XbJRMZPonhjL7&s=10" class="w-full h-[210px] object-cover rounded" />
+        <p class="text-xs mt-1"></p>
+        <a href="https://m.imdb.com/title/tt1190634/" class="text-xs text-blue-600 hover:underline"></a>
+      </div>
+      <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzEZOZTaipmCcn5cWjjsw4KoHWRq5i4oNRuPPTZjjnc_yWDdDp_CVWVBs&s=10" class="w-full h-[210px] object-cover rounded" />
+        <p class="text-xs mt-1"></p>
+        <a href="https://m.imdb.com/title/tt13146488/" class="text-xs text-blue-600 hover:underline"></a>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  <footer class="text-center text-xs text-gray-500 py-6 mt-10 border-t border-gray-800">
+    © 2025 BatPrime. All rights reserved.
+  </footer>
+
+  <!-- Comment JS -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const savedComments = JSON.parse(localStorage.getItem("fanComments")) || [];
+      const commentsList = document.getElementById("commentsList");
+      savedComments.forEach(comment => {
+        const div = document.createElement("div");
+        div.className = "bg-black text-yellow-400 p-3 rounded shadow";
+        div.innerText = comment;
+        commentsList.prepend(div);
+      });
+
+      document.querySelector("button[onclick='saveComment()']").addEventListener("click", function () {
+        const input = document.getElementById("commentInput");
+        const commentText = input.value.trim();
+        if (commentText === "") return;
+
+        const commentBox = document.createElement("div");
+        commentBox.className = "bg-black text-yellow-400 p-3 rounded shadow";
+        commentBox.textContent = commentText;
+        commentsList.prepend(commentBox);
+
+        let savedComments = JSON.parse(localStorage.getItem("fanComments")) || [];
+        savedComments.unshift(commentText);
+        localStorage.setItem("fanComments", JSON.stringify(savedComments));
+
+        input.value = "";
+      });
+    });
+  </script>
+</body>
+</html>
